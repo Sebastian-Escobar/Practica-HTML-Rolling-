@@ -7,6 +7,88 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>practica 1 html</h1>
+    <!-- <header> </header> Encabezado
+● <nav> </nav> Barra de navegación
+● <section> </section> Sección del sitio
+● <aside> </aside> Sirve para identificar columnas
+● <article> </article> Sirve para escribir artículos
+● <h1> </h1> Etiqueta para escribir títulos, hay etiqueta de varios tamaños.
+● <p> </p> Etiqueta de párrafo para escribir texto
+
+● <b></b> resaltar el texto que está contenido dentro
+● <br> salto de línea
+● <hr> Crea una línea
+● <a href=””> </a> Sirve para crear un vínculo, siempre lleva el atributo href para
+indicar a dónde se dirige ese vínculo.
+● <img> Esta etiqueta simple permite mostrar imágenes, hay que agregar el atributo
+src con la ubicación de la imagen.
+● <ol> </ol> Etiqueta para crear un conjunto de listas ordenada
+● <li> </li> Son los ítems de la lista
+● <ul> </ul> Etiqueta para crear una lista que no esté numerada.
+● <table> </table> Etiqueta para crear tablas.
+● <tr> </tr> Crea una fila
+● <th> </th> Para crear columnas
+● <footer> </footer> Etiqueta para crear el pie de página -->
+ <header> comienzo de practica HTML</header>
+ <main> 
+    <section>
+        <div>
+            <!--
+                                    Enlaces HTML: el atributo de destino
+                    De forma predeterminada, la página vinculada se mostrará en la ventana actual del navegador. Para cambiar esto, debe especificar otro destino para el vínculo.
+
+                    El targetatributo especifica dónde abrir el documento vinculado.
+
+                    El ((((((target)))))atributo puede tener uno de los siguientes valores:
+
+                    _self- Por defecto. Abre el documento en la misma ventana/pestaña en la que se hizo clic
+                    _blank- Abre el documento en una nueva ventana o pestaña
+                    _parent- Abre el documento en el marco principal
+                    _top- Abre el documento en el cuerpo completo de la ventana.
+            -->
+            <a href="https://www.w3schools.com/html/html_links.asp" target="b"> enlace de origen</a>   <!-- target= a objetivo -->
+        </div>
+        <div>
+            <!--El elemento <span>
+                    El <span>elemento es un contenedor en línea que se utiliza para marcar una parte de un texto o una parte de un documento.
+
+                    El <span>elemento no tiene atributos requeridos, pero style, classy idson comunes.
+
+                    Cuando se usa junto con CSS, el <span>elemento se puede usar para diseñar partes del texto:-->
+            
+            <p>My mother has <span style="color:blue;font-weight:bold;">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold;">dark green</span> eyes.</p>             
+        </div>
+        <!-- pratica 25/02/2023 formulario--> 
+        <div>  
+          <form>
+            <label for="fname">First name:</label><br> <!-- label = etiqueta /// for = para-->
+            <input type="text" id="fname" name="fname" value="John"><br> <!-- input = aporte /// type = tipo -->
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe">
+          </form>
+          <hr>
+          <form action="">
+            <label for="primer"> primer nombre</label><br>
+            <input type="text" id="primer" name="primer" value="dani"><br>
+            <label for="apellido">apellido</label> <br>
+            <input type="text" id="apellido" name="apellido" value="ramon">
+          </form>
+          <hr>
+          <form action="">
+            <label for="primer">primer nombre</label><br>
+            <input type="text" id="primer" name="primer"> <br>
+            <label for="apellido">apellido</label><br>
+            <input type="text" id="apellido" name="apellido">
+          </form>
+          <hr>
+          <form action="">
+            <label for="nombre">nombre</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label for="apellido">apellido</label><br>
+            <input type="text" id="apellido" name="apellido">
+          </form>
+        </div>
+    </section>
+ </main>
 </body>
 </html>
